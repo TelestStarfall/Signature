@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/"?>
+<dialog
+        id="options"
+        title="Options"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        buttons="accept, cancel"
+		ondialogaccept="onDialogAccept();"
+        ondialogcancel="onDialogCancel();"
+		onload="onLoad();">
+
+    <script type="application/x-javascript" src="chrome://signature/content/options.js"/>
+				<hbox>
+					<label value="Adresse"/><textbox id="mail"/>
+				</hbox>
+				<hbox>
+					<label value="Login"/><textbox id="login"/>
+				</hbox>
+				<hbox>
+					<label value="Mot de passe"/><textbox id="passwd"/>
+				</hbox>
+</dialog>

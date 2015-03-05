@@ -1,0 +1,2 @@
+content     signature    chrome/content/
+overlay chrome://messenger/content/messenger.xul chrome://signature/content/button.xul
